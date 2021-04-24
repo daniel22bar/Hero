@@ -20,6 +20,8 @@ public class GameManager {
             }
             counter++;
         }
+
+
         System.out.println((h1.isAlive()? h1.getClass().getName() : h2.getClass().getName()) + " Win");
     }
 }

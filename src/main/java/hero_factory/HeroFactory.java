@@ -6,6 +6,6 @@ import lombok.SneakyThrows;
 
 import java.util.Random;
 
-public interface HeroFactory {
+interface HeroFactory {
     public Hero createHero();
 }
